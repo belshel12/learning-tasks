@@ -1,0 +1,2 @@
+console.log(function(n){if(n.every((function(n){return n.know.length})))return"Not found";var e,o,t=n.find((function(n){return!n.know.length})),u=n.filter((function(n){return n.name!==t.name}));return null!==(o=(null!==(e=n.find((function(n){return n.name===t.name&&u.every((function(n){return n.know.includes(t.name)}))})))&&void 0!==e?e:"Not found").name)&&void 0!==o?o:"Not found"}([{name:"Alex",know:["Eva","Jhon"]},{name:"Jhon",know:[]},{name:"Eva",know:["Alex","Jhon"]},{name:"Ivan",know:["Jhon","Alex"]}]));
+//# sourceMappingURL=task-03-narciss-find.593cc60a.js.map

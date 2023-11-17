@@ -1,0 +1,2 @@
+console.log(function(n){if(n.every((({know:n})=>n.length)))return"Not found";const e=n.find((({know:n})=>!n.length)),o=n.filter((({name:n})=>n!==e.name));var a,l;return null!==(l=(null!==(a=n.find((n=>n.name===e.name&&o.every((({know:n})=>n.includes(e.name))))))&&void 0!==a?a:"Not found").name)&&void 0!==l?l:"Not found"}([{name:"Alex",know:["Eva","Jhon"]},{name:"Jhon",know:[]},{name:"Eva",know:["Alex","Jhon"]},{name:"Ivan",know:["Jhon","Alex"]}]));
+//# sourceMappingURL=task-03-narciss-find.360678f0.js.map

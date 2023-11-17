@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px 24px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/ce/Mongolia_%2835427009881%29.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+span {
+  padding-left: 8px;
+}
+
+.box {
+  display: none;
+  width: 280px;
+  height: 140px;
+  padding: 15px;
+  border: 1px solid teal;
+}
+
+.clock {
+  width: 550px;
+  height: 550px;
+  background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clock-arrow {
+  position: absolute;
+  background-color: black;
+  transform-origin: bottom;
+  transform: translateX(-50%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.clock-center {
+  position: absolute;
+  background-color: black;
+  top: 268px;
+  left: 268px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.clock-seconds__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 5px;
+  height: 40%;
+}
+.clock-minutes__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 7px;
+  height: 33%;
+}
+.clock-hours__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 12px;
+  height: 24%;
+}
+.date {
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+.calendar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+}
+.date-style {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 3px 3px 2px #cecbcd;
+}
+.digital-clock {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 3px 3px 2px #cecbcd;
+}
+
+.js-game__container {
+  display: flex;
+  margin-top: 8px;
+  border: 1px solid black;
+  width: 153px;
+  background-color: #cecbcd;
+}
+
+.game__item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  outline: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
